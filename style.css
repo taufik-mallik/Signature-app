@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.canvas{
+    border: 3px solid black;
+}
+
+.main{
+    margin-top: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.top, .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.color,input,select,button{
+    width: 80%;
+}
+
+.top>.color{
+    margin: 10px;
+}
+
+.bottom>button{
+    margin: 10px;
+}
+
+.color>p{
+    margin:10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.btn{
+    font-size: 17px;
+    font-weight: 500;
+}
